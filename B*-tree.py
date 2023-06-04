@@ -54,7 +54,6 @@ class ArbolBStar:
             nueva_raiz = Nodo()
             nueva_raiz.hijos.append(nodo)
             self.raiz = nueva_raiz
-            nueva_raiz.dividir_hijo(0)
             nueva_raiz.insertar(clave)
         else:
             nodo.insertar(clave)
